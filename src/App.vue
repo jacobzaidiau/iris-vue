@@ -103,7 +103,9 @@ export default {
     var PetalClusterTwo = [];
     var PetalClusterThree = [];
 
-    const { data } = await axios.get("https://localhost:44379/api/cluster");
+    const { data } = await axios.get(
+      "https://zaidi004.herokuapp.com/api/cluster"
+    );
 
     data.forEach(d => {
       const { sepalWidth, sepalLength, petalWidth, petalLength, clusterId } = d;
