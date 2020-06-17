@@ -10,7 +10,7 @@
           Iris Data and applied a K-Means clustering algorithm to it. I've used Charts.js to
           display the results in a scattering chart, and added a button to toggle between the petal
           and sepal widths and lengths. The back-end is running on a Docker image deployed onto Heroku
-          which you can access HERE. Cheers.
+          which you can access <a href="https://zaidi004.herokuapp.com/api/cluster">here</a>. Cheers.
         </p>
       </div>
     </div>
